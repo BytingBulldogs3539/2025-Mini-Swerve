@@ -8,6 +8,7 @@ import com.ctre.phoenix6.swerve.*;
 import com.ctre.phoenix6.BaseStatusSignal;
 import com.ctre.phoenix6.configs.CurrentLimitsConfigs;
 import com.ctre.phoenix6.hardware.CANcoder;
+import com.ctre.phoenix6.hardware.Pigeon2;
 import com.ctre.phoenix6.hardware.TalonFX;
 import edu.wpi.first.math.geometry.Pose2d;
 import edu.wpi.first.math.geometry.Rotation2d;
@@ -35,7 +36,8 @@ public class DriveSubsystem extends SwerveDrivetrain<TalonFX, TalonFX, CANcoder>
 	 public double maxVelocity = 0.0;
 	 public double maxRotationalVelocity = 0.0;
 
-	//public Pigeon pigeon = new Pigeon(Constants.pigeonID, "rio");
+	public Pigeon2 pigeon = new Pigeon2(Constants.pigeonID, "rio");
+
 
 	public DriveSubsystem(SwerveDrivetrainConstants driveTrainConstants, SwerveModuleConstants... modules) {
 		super(TalonFX::new, TalonFX::new, CANcoder::new, driveTrainConstants, modules);

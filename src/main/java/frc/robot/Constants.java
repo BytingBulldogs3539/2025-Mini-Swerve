@@ -15,6 +15,9 @@ public class Constants {
     public static int BRCanCoderID = 31;
     public static int FLCanCoderID = 32;
     public static int FRCanCoderID = 33;
+    public static int clawServoID = 0;
+
+
     
     //Drive Constants
 	public static double TranslationkP = 15;
@@ -35,6 +38,10 @@ public class Constants {
 	public static double turboSpeedMultiplier = 0.4;
 	public static double turboRotationSpeedMultiplier = 0.3;
 	public static double AlignkP = 2;
+
+    public static double clawOpenPosition = .4;
+    public static double clawClosedPosition = 0.1;
+
 
 
 }
