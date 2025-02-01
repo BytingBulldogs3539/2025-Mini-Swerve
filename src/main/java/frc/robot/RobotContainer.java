@@ -19,7 +19,9 @@ import edu.wpi.first.wpilibj2.command.button.Trigger;
 public class RobotContainer {
   public static DriveSubsystem driveSubsystem = TunerConstants.createDrivetrain(); // TunerConstants.DriveTrain
 
-  public static ServoSubsystem servoSubsystem = new ServoSubsystem();
+  //public static ServoSubsystem servoSubsystem = new ServoSubsystem();
+  public static IntakeSubsystem intakeSubsystem = new IntakeSubsystem();
+
   // The robot's subsystems and commands are defined here...
 
   // Replace with CommandPS4Controller or CommandJoystick if needed
@@ -40,6 +42,7 @@ public class RobotContainer {
   public RobotContainer() {
     // Configure the trigger bindings
     configureBindings();
+
   }
 
   /**
@@ -54,7 +57,10 @@ public class RobotContainer {
   private void configureBindings() {
 
     driveSubsystem.setDefaultCommand(new DriveCommand());
-    driverController.rightBumper().whileTrue(new ServoCommand());
+    //driverController.rightBumper().whileTrue(new ServoCommand());
+    operatorController.leftBumper().whileTrue(new CoralIntakeCommand());
+    operatorController.rightBumper().whileTrue(new ReverseIntakeCommand());
+
   }
 
   /**
