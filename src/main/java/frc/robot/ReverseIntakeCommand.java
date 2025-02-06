@@ -20,8 +20,8 @@ public class ReverseIntakeCommand extends Command {
   // Called when the command is initially scheduled.
   @Override
   public void initialize() {
-    IntakeSubsystem.setCoralIntakeMotor(Constants.coralIntakeVoltage);
-    IntakeSubsystem.setFunnelMotor(Constants.funnelVoltage);
+    IntakeSubsystem.setCoralIntakeMotor(-Constants.coralIntakeVoltage);
+    IntakeSubsystem.setFunnelMotor(-Constants.funnelVoltage);
 
   }
   

@@ -16,6 +16,8 @@ public class Constants {
     public static int FLCanCoderID = 32;
     public static int FRCanCoderID = 33;
     public static int clawServoID = 0;
+    public static int  coralIntakeMotorID = 21;
+    public static int funnelMotorID = 8;
 
 
     
@@ -41,6 +43,9 @@ public class Constants {
 
     public static double clawOpenPosition = .4;
     public static double clawClosedPosition = 0.1;
+
+    public static double coralIntakeVoltage = 1.0;
+    public static double funnelVoltage = 1.0;
 
 
 
