@@ -32,7 +32,11 @@
         {
           "type": "path",
           "data": {
+<<<<<<< HEAD
             "pathName": " To Human Player"
+=======
+            "pathName": null
+>>>>>>> 2128e3b9951dd168fb3ec570156182af3e6dfb26
           }
         },
         {
