@@ -3,25 +3,25 @@
   "waypoints": [
     {
       "anchor": {
-        "x": 5.923125,
-        "y": 0.5947727272727286
+        "x": 1.5655397727272726,
+        "y": 0.8440624999999988
       },
       "prevControl": null,
       "nextControl": {
-        "x": 3.9188352272727274,
-        "y": 1.193068181818182
+        "x": 2.472954545454546,
+        "y": 1.9309659090909077
       },
       "isLocked": false,
       "linkedName": null
     },
     {
       "anchor": {
-        "x": 2.9715340909090906,
-        "y": 3.945227272727272
+        "x": 3.609715909090909,
+        "y": 2.868295454545454
       },
       "prevControl": {
-        "x": 1.9715340909090906,
-        "y": 3.945227272727272
+        "x": 3.07125,
+        "y": 2.0605965909090913
       },
       "nextControl": null,
       "isLocked": false,
@@ -42,13 +42,13 @@
   },
   "goalEndState": {
     "velocity": 0,
-    "rotation": 0.0
+    "rotation": 56.00354085174954
   },
   "reversed": false,
   "folder": "Chris Ivan PATHS",
   "idealStartingState": {
     "velocity": 0,
-    "rotation": -90.0
+    "rotation": -128.79655209830818
   },
   "useDefaultConstraints": false
 }
