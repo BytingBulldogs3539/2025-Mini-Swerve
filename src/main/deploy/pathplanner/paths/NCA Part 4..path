@@ -3,25 +3,25 @@
   "waypoints": [
     {
       "anchor": {
-        "x": 5.929040404040404,
-        "y": 0.5590277777777771
+        "x": 5.405,
+        "y": 5.192
       },
       "prevControl": null,
       "nextControl": {
-        "x": 5.603787878787879,
-        "y": 1.168876262626262
+        "x": 6.4049999999999985,
+        "y": 5.192
       },
       "isLocked": false,
       "linkedName": null
     },
     {
       "anchor": {
-        "x": 3.799176136363636,
-        "y": 2.7486363636363627
+        "x": 1.456,
+        "y": 7.076
       },
       "prevControl": {
-        "x": 3.992294823232323,
-        "y": 2.087967171717171
+        "x": 1.7250852272727275,
+        "y": 6.7971022727272725
       },
       "nextControl": null,
       "isLocked": false,
@@ -33,8 +33,8 @@
   "pointTowardsZones": [],
   "eventMarkers": [],
   "globalConstraints": {
-    "maxVelocity": 2.0,
-    "maxAcceleration": 2.0,
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
     "maxAngularVelocity": 540.0,
     "maxAngularAcceleration": 720.0,
     "nominalVoltage": 12.0,
@@ -42,13 +42,13 @@
   },
   "goalEndState": {
     "velocity": 0,
-    "rotation": 57.20389249736283
+    "rotation": 129.93638314696992
   },
   "reversed": false,
   "folder": "Chris Ivan PATHS",
   "idealStartingState": {
     "velocity": 0,
-    "rotation": -88.2100893917538
+    "rotation": -119.95910328167504
   },
-  "useDefaultConstraints": false
+  "useDefaultConstraints": true
 }
