@@ -5,6 +5,7 @@
 package frc.robot;
 
 import edu.wpi.first.wpilibj.Servo;
+import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
 
 public class ServoSubsystem extends SubsystemBase {
@@ -26,6 +27,7 @@ public class ServoSubsystem extends SubsystemBase {
   @Override
   public void periodic() {
     clawServo.set(clawServoPosition);  
+    SmartDashboard.putNumber("/ServoSubsystem/Position", getClawServoPosition());
     }
   }
 

@@ -3,25 +3,25 @@
   "waypoints": [
     {
       "anchor": {
-        "x": 1.996,
-        "y": 1.159
+        "x": 3.429,
+        "y": 2.856
       },
       "prevControl": null,
       "nextControl": {
-        "x": 2.283494318181818,
-        "y": 1.7913636363636363
+        "x": 2.4031534090909092,
+        "y": 1.6517613636363626
       },
       "isLocked": false,
       "linkedName": null
     },
     {
       "anchor": {
-        "x": 3.0014488636363637,
-        "y": 3.785681818181818
+        "x": 1.995517676767677,
+        "y": 1.1587121212121212
       },
       "prevControl": {
-        "x": 2.7820738636363638,
-        "y": 3.147500000000001
+        "x": 2.615530303030303,
+        "y": 1.839709595959596
       },
       "nextControl": null,
       "isLocked": false,
@@ -42,7 +42,7 @@
   },
   "goalEndState": {
     "velocity": 0,
-    "rotation": 0.0
+    "rotation": 51.6666598909014
   },
   "reversed": false,
   "folder": "Katelyn",

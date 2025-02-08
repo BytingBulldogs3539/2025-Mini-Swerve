@@ -25,7 +25,7 @@ import edu.wpi.first.wpilibj2.command.button.Trigger;
 public class RobotContainer {
   public static DriveSubsystem driveSubsystem = TunerConstants.createDrivetrain(); // TunerConstants.DriveTrain
 
-  //public static ServoSubsystem servoSubsystem = new ServoSubsystem();
+  public static ServoSubsystem servoSubsystem = new ServoSubsystem();
   public static IntakeSubsystem intakeSubsystem = new IntakeSubsystem();
 
   // The robot's subsystems and commands are defined here...
@@ -72,9 +72,9 @@ public class RobotContainer {
   private void configureBindings() {
 
     driveSubsystem.setDefaultCommand(new DriveCommand());
-    //driverController.rightBumper().whileTrue(new ServoCommand());
-    operatorController.leftBumper().whileTrue(new CoralIntakeCommand());
-    operatorController.rightBumper().whileTrue(new ReverseIntakeCommand());
+    driverController.rightBumper().whileTrue(new ServoCommand(Constants.clawClosedPosition));
+    driverController.leftBumper().whileTrue(new ServoCommand(Constants.clawOpenPosition));
+    // operatorController.rightBumper().whileTrue(new ReverseIntakeCommand());
 
   }
 
