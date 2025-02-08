@@ -43,7 +43,7 @@ public class DriveSubsystem extends SwerveDrivetrain<TalonFX, TalonFX, CANcoder>
 		super(TalonFX::new, TalonFX::new, CANcoder::new, driveTrainConstants, modules);
 
 		rangeFinder = new CANrange(Constants.rangeFinderID, "rio");
-		
+
 		rangeFinder.getConfigurator().apply(new FovParamsConfigs()
 		.withFOVCenterX(0)
 		.withFOVCenterY(0)
@@ -86,6 +86,7 @@ public class DriveSubsystem extends SwerveDrivetrain<TalonFX, TalonFX, CANcoder>
 
 	public void log() {
 		SmartDashboard.putString("/CANrange/Distance", df.format(getDistance()));
+		publishPose2d("/DriveTrain/Pose", getPose2d());
 	}
 
 	private void configureAutoBuilder() {
@@ -116,6 +117,10 @@ public class DriveSubsystem extends SwerveDrivetrain<TalonFX, TalonFX, CANcoder>
 					ex.getStackTrace());
 		}
 
+	}
+	public static void publishPose2d(String key, Pose2d pose) {
+		SmartDashboard.putNumberArray(key, new double[]{pose.getTranslation().getX(), pose.getTranslation().getY(),
+				pose.getRotation().getRadians()});
 	}
 
 	@Override
