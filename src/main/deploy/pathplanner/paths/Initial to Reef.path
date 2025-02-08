@@ -16,12 +16,12 @@
     },
     {
       "anchor": {
-        "x": 3.3903409090909093,
-        "y": 2.5093181818181813
+        "x": 3.429,
+        "y": 2.856
       },
       "prevControl": {
-        "x": 3.1432478770221572,
-        "y": 2.547331778110438
+        "x": 3.1819069679312477,
+        "y": 2.8940135962922566
       },
       "nextControl": null,
       "isLocked": false,
@@ -48,7 +48,7 @@
   "folder": "Katelyn",
   "idealStartingState": {
     "velocity": 0,
-    "rotation": 85.7636052009412
+    "rotation": 89.4102298552466
   },
   "useDefaultConstraints": true
 }
