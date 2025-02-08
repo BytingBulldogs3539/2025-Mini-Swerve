@@ -16,12 +16,12 @@
     },
     {
       "anchor": {
-        "x": 1.455852272727273,
-        "y": 7.076306818181817
+        "x": 1.6453125,
+        "y": 7.016477272727273
       },
       "prevControl": {
-        "x": 0.4558522727272729,
-        "y": 7.076306818181817
+        "x": 0.6453125,
+        "y": 7.016477272727273
       },
       "nextControl": null,
       "isLocked": false,
@@ -48,7 +48,7 @@
   "folder": "Chris Ivan PATHS",
   "idealStartingState": {
     "velocity": 0,
-    "rotation": 0.0
+    "rotation": -178.26234745417634
   },
   "useDefaultConstraints": true
 }
