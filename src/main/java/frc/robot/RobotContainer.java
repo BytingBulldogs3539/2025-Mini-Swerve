@@ -4,6 +4,7 @@
 
 package frc.robot;
 import com.pathplanner.lib.auto.AutoBuilder;
+import com.pathplanner.lib.auto.NamedCommands;
 import com.pathplanner.lib.commands.PathPlannerAuto;
 
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
@@ -46,7 +47,9 @@ public class RobotContainer {
 
 
   public RobotContainer() {
-    
+    NamedCommands.registerCommand("OpenServoCommand", new ServoCommand(Constants.clawOpenPosition));
+    NamedCommands.registerCommand("ClosedServoCommand", new ServoCommand(Constants.clawClosedPosition));
+
     // Configure the trigger bindings
     configureBindings();
     putAutons();
