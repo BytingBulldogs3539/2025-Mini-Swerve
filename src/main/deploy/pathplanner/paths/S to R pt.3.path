@@ -16,11 +16,11 @@
     },
     {
       "anchor": {
-        "x": 3.9986079545454545,
+        "x": 3.868977272727273,
         "y": 2.6289772727272727
       },
       "prevControl": {
-        "x": 3.6929283101928467,
+        "x": 3.563297628374665,
         "y": 2.1039778449219546
       },
       "nextControl": null,
@@ -42,7 +42,7 @@
   },
   "goalEndState": {
     "velocity": 0,
-    "rotation": 52.853313301978126
+    "rotation": 53.67317404787975
   },
   "reversed": false,
   "folder": "Chris Ivan PATHS",
