@@ -9,19 +9,19 @@
       "prevControl": null,
       "nextControl": {
         "x": 7.667474482475541,
-        "y": 0.3571923431906462
+        "y": 0.35719234319064586
       },
       "isLocked": false,
       "linkedName": null
     },
     {
       "anchor": {
-        "x": 3.428661616161616,
-        "y": 2.856123737373737
+        "x": 3.429,
+        "y": 2.856
       },
       "prevControl": {
-        "x": 3.181568691748961,
-        "y": 2.8941380334372204
+        "x": 3.1819069679312477,
+        "y": 2.8940135962922566
       },
       "nextControl": null,
       "isLocked": false,
@@ -42,10 +42,10 @@
   },
   "goalEndState": {
     "velocity": 0,
-    "rotation": 64.98310652189994
+    "rotation": 61.06041233924853
   },
   "reversed": false,
-  "folder": "Test Paths",
+  "folder": "Katelyn",
   "idealStartingState": {
     "velocity": 0,
     "rotation": 85.7636052009412

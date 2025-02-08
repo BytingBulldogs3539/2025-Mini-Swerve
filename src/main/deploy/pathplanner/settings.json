@@ -3,6 +3,7 @@
   "robotLength": 0.66,
   "holonomicMode": true,
   "pathFolders": [
+    "Katelyn",
     "Test Paths"
   ],
   "autoFolders": [

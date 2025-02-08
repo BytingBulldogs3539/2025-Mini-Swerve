@@ -3,13 +3,13 @@
   "waypoints": [
     {
       "anchor": {
-        "x": 3.3676767676767674,
-        "y": 2.6833333333333327
+        "x": 3.429,
+        "y": 2.856
       },
       "prevControl": null,
       "nextControl": {
-        "x": 2.615530303030303,
-        "y": 1.8600378787878789
+        "x": 2.4031534090909092,
+        "y": 1.6517613636363626
       },
       "isLocked": false,
       "linkedName": null
@@ -45,7 +45,7 @@
     "rotation": 51.6666598909014
   },
   "reversed": false,
-  "folder": "Test Paths",
+  "folder": "Katelyn",
   "idealStartingState": {
     "velocity": 0,
     "rotation": 52.00126755749528
