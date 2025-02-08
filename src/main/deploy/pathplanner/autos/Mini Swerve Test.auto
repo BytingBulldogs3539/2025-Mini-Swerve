@@ -32,31 +32,13 @@
         {
           "type": "path",
           "data": {
-            "pathName": " To Human Player"
-          }
-        },
-        {
-          "type": "wait",
-          "data": {
-            "waitTime": 1.0
+            "pathName": "To Human Player"
           }
         },
         {
           "type": "named",
           "data": {
             "name": "ClosedServoCommand"
-          }
-        },
-        {
-          "type": "path",
-          "data": {
-            "pathName": "Human Player to B"
-          }
-        },
-        {
-          "type": "named",
-          "data": {
-            "name": "OpenServoCommand"
           }
         }
       ]

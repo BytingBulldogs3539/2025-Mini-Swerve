@@ -45,6 +45,18 @@
           "data": {
             "pathName": "A tp P  pt.4"
           }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 1.0
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "M to P . Pt5"
+          }
         }
       ]
     }
