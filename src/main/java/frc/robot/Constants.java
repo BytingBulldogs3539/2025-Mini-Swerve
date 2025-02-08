@@ -17,7 +17,8 @@ public class Constants {
     public static int FRCanCoderID = 33;
     public static int clawServoID = 0;
     public static int  coralIntakeMotorID = 21;
-    public static int funnelMotorID = 8;
+    public static int funnelMotorID = 9;
+    public static int rangeFinderID = 16;
 
 
     
@@ -35,8 +36,8 @@ public class Constants {
 	public static double FRSteerOffset = 0;
 	public static double BLSteerOffset = 0;
 	public static double BRSteerOffset = 0;
-	public static double speedMultiplier = 1;
-	public static double rotationSpeedMultiplier = 0.5;
+	public static double speedMultiplier = .25;
+	public static double rotationSpeedMultiplier = 0.15;
 	public static double turboSpeedMultiplier = 0.4;
 	public static double turboRotationSpeedMultiplier = 0.3;
 	public static double AlignkP = 2;

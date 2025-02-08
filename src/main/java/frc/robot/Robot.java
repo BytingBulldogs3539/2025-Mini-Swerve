@@ -49,6 +49,7 @@ public class Robot extends TimedRobot {
 	 */
 	@Override
 	public void robotPeriodic() {
+		RobotContainer.driveSubsystem.log();
 		//RobotContainer.logController.logPeriodic();
 		if (DriverStation.getAlliance().isPresent() && DriverStation.getAlliance().get() != currentAlliance) {
 			currentAlliance = DriverStation.getAlliance().get();
