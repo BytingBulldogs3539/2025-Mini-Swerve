@@ -21,7 +21,7 @@
       },
       "prevControl": {
         "x": 5.085416666666667,
-        "y": 0.7521464646464636
+        "y": 0.7521464646464634
       },
       "nextControl": null,
       "isLocked": false,
@@ -45,7 +45,7 @@
     "rotation": -88.95837332399013
   },
   "reversed": false,
-  "folder": "Test Paths",
+  "folder": "Chris Ivan PATHS",
   "idealStartingState": {
     "velocity": 0,
     "rotation": 58.78159723565361
