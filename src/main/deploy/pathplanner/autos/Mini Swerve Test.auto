@@ -32,13 +32,19 @@
         {
           "type": "path",
           "data": {
-            "pathName": "To Human Player"
+            "pathName": " To Human Player"
           }
         },
         {
           "type": "named",
           "data": {
             "name": "ClosedServoCommand"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Human Player to B"
           }
         }
       ]
