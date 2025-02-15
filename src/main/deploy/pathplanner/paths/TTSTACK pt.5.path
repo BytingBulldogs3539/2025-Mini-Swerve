@@ -3,25 +3,25 @@
   "waypoints": [
     {
       "anchor": {
-        "x": 1.765,
-        "y": 4.015
+        "x": 6.003,
+        "y": 0.485
       },
       "prevControl": null,
       "nextControl": {
-        "x": 2.7649999999999997,
-        "y": 4.015
+        "x": 6.820568181818182,
+        "y": 1.811306818181818
       },
       "isLocked": false,
       "linkedName": null
     },
     {
       "anchor": {
-        "x": 3.2307954545454542,
-        "y": 4.015
+        "x": 1.1567045454545453,
+        "y": 1.222982954545455
       },
       "prevControl": {
-        "x": 2.2307954545454542,
-        "y": 4.015
+        "x": 0.3190909090909091,
+        "y": 1.1731249999999998
       },
       "nextControl": null,
       "isLocked": false,
@@ -42,13 +42,13 @@
   },
   "goalEndState": {
     "velocity": 0,
-    "rotation": 0.0
+    "rotation": -125.33133133891636
   },
   "reversed": false,
   "folder": "TT Autos",
   "idealStartingState": {
     "velocity": 0,
-    "rotation": -178.3202532708119
+    "rotation": -92.5027681079053
   },
   "useDefaultConstraints": true
 }
