@@ -69,11 +69,17 @@
           "data": {
             "pathName": "CANN PART 6"
           }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "NCA PART 7"
+          }
         }
       ]
     }
   },
   "resetOdom": true,
-  "folder": "Chris Ivan Autons",
+  "folder": null,
   "choreoAuto": false
 }

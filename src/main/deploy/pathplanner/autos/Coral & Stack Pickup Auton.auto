@@ -26,6 +26,6 @@
     }
   },
   "resetOdom": true,
-  "folder": "Caelan",
+  "folder": null,
   "choreoAuto": false
 }

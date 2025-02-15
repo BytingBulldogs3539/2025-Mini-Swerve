@@ -62,6 +62,6 @@
     }
   },
   "resetOdom": true,
-  "folder": "Chris Ivan Autons",
+  "folder": null,
   "choreoAuto": false
 }
