@@ -3,25 +3,25 @@
   "waypoints": [
     {
       "anchor": {
-        "x": 3.764078282828282,
-        "y": 2.7138257575757576
+        "x": 7.209722222222223,
+        "y": 7.419823232323232
       },
       "prevControl": null,
       "nextControl": {
-        "x": 4.536553030303031,
-        "y": 1.8702020202020209
+        "x": 5.4646938131313165,
+        "y": 7.250306186868686
       },
       "isLocked": false,
       "linkedName": null
     },
     {
       "anchor": {
-        "x": 6.000189393939394,
-        "y": 0.5691919191919191
+        "x": 4.0,
+        "y": 5.25
       },
       "prevControl": {
-        "x": 5.309027777777779,
-        "y": 0.8944444444444437
+        "x": 4.952404390959278,
+        "y": 6.202404390959279
       },
       "nextControl": null,
       "isLocked": false,
@@ -33,8 +33,8 @@
   "pointTowardsZones": [],
   "eventMarkers": [],
   "globalConstraints": {
-    "maxVelocity": 2.0,
-    "maxAcceleration": 2.0,
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
     "maxAngularVelocity": 540.0,
     "maxAngularAcceleration": 720.0,
     "nominalVoltage": 12.0,
@@ -42,13 +42,13 @@
   },
   "goalEndState": {
     "velocity": 0,
-    "rotation": -88.95837332399013
+    "rotation": -59.03624346792648
   },
   "reversed": false,
-  "folder": "Chris Ivan PATHS",
+  "folder": "Caelan",
   "idealStartingState": {
     "velocity": 0,
-    "rotation": 58.78159723565361
+    "rotation": 180.0
   },
-  "useDefaultConstraints": false
+  "useDefaultConstraints": true
 }
