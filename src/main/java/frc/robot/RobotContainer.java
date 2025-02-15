@@ -75,6 +75,7 @@ public class RobotContainer {
     driverController.rightBumper().whileTrue(new ServoCommand(Constants.clawClosedPosition));
     driverController.leftBumper().whileTrue(new ServoCommand(Constants.clawOpenPosition));
     // operatorController.rightBumper().whileTrue(new ReverseIntakeCommand());
+    driverController.start().whileTrue(new ZeroGyroCommand());
 
   }
 

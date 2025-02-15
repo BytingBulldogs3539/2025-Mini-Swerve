@@ -17,6 +17,7 @@ import com.ctre.phoenix6.hardware.Pigeon2;
 import com.ctre.phoenix6.hardware.TalonFX;
 import edu.wpi.first.math.geometry.Pose2d;
 import edu.wpi.first.math.geometry.Translation2d;
+import edu.wpi.first.math.trajectory.Trajectory;
 import edu.wpi.first.wpilibj.DriverStation;
 import edu.wpi.first.wpilibj.DriverStation.Alliance;
 import edu.wpi.first.wpilibj.RobotController;
@@ -69,9 +70,6 @@ public class DriveSubsystem extends SwerveDrivetrain<TalonFX, TalonFX, CANcoder>
 		configureAutoBuilder();
 	}
 
-	// public void seedFieldRelative(Trajectory trajectory) {
-	// this.seedFieldRelative(trajectory.calculate(0).getPathState().getPose2d());
-	// }
 	public double getDistance() {
 		return rangeFinder.getDistance().getValueAsDouble();
 	}
@@ -122,6 +120,7 @@ public class DriveSubsystem extends SwerveDrivetrain<TalonFX, TalonFX, CANcoder>
 		SmartDashboard.putNumberArray(key, new double[]{pose.getTranslation().getX(), pose.getTranslation().getY(),
 				pose.getRotation().getRadians()});
 	}
+	
 
 	@Override
 	public void periodic() {
