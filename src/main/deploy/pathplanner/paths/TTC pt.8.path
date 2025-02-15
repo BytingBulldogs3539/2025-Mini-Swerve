@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 3.689,
+        "y": 2.928
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 3.101164772727273,
+        "y": 2.4694318181818176
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 1.077,
+        "y": 1.123
+      },
+      "prevControl": {
+        "x": 2.1938181818181812,
+        "y": 1.4819772727272724
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -130.94716769030057
+  },
+  "reversed": false,
+  "folder": "TT Autos",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 59.153523971422885
+  },
+  "useDefaultConstraints": true
+}

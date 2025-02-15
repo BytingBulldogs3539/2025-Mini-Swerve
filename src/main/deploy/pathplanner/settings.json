@@ -5,14 +5,24 @@
   "pathFolders": [
     "Chris Ivan PATHS",
     "Katelyn",
+<<<<<<< HEAD
     "NEW PATHS",
     "Caelan"
+=======
+    "TT Autos",
+    "Test Paths"
+>>>>>>> 24cc5eb86baad6d787f25510b8e4a2ebe94fed3c
   ],
   "autoFolders": [
     "Chris Ivan Autons",
     "Katelyn's AUTONS",
+<<<<<<< HEAD
     "Test Autons",
     "Caelan"
+=======
+    "TT Autos",
+    "Test Autons"
+>>>>>>> 24cc5eb86baad6d787f25510b8e4a2ebe94fed3c
   ],
   "defaultMaxVel": 3.0,
   "defaultMaxAccel": 3.0,
