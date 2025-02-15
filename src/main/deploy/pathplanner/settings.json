@@ -3,13 +3,15 @@
   "robotLength": 0.66,
   "holonomicMode": true,
   "pathFolders": [
-    "Katelyn",
     "Chris Ivan PATHS",
+    "Katelyn",
+    "TT Autos",
     "Test Paths"
   ],
   "autoFolders": [
     "Chris Ivan Autons",
     "Katelyn's AUTONS",
+    "TT Autos",
     "Test Autons"
   ],
   "defaultMaxVel": 3.0,
