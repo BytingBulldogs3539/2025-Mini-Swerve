@@ -81,11 +81,35 @@
           "data": {
             "pathName": "NCA PART 7"
           }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 1.0
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "NCA pt.8"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 1.0
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "NCA pt.9"
+          }
         }
       ]
     }
   },
   "resetOdom": true,
-  "folder": "Chris Ivan Autons",
+  "folder": null,
   "choreoAuto": false
 }
