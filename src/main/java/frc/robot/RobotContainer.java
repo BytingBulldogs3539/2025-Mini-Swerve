@@ -72,10 +72,10 @@ public class RobotContainer {
   private void configureBindings() {
 
     driveSubsystem.setDefaultCommand(new DriveCommand());
-    driverController.rightBumper().whileTrue(new ServoCommand(Constants.clawClosedPosition));
-    driverController.leftBumper().whileTrue(new ServoCommand(Constants.clawOpenPosition));
+    //driverController.rightBumper().whileTrue(new ServoCommand(Constants.clawClosedPosition));
+    //driverController.leftBumper().whileTrue(new ServoCommand(Constants.clawOpenPosition));
     // operatorController.rightBumper().whileTrue(new ReverseIntakeCommand());
-    driverController.start().whileTrue(new ZeroGyroCommand());
+    		driverController.start().whileTrue(new ZeroGyroCommand());
 
   }
 
