@@ -27,6 +27,6 @@
     }
   },
   "resetOdom": true,
-  "folder": "Katelyn's AUTONS",
+  "folder": null,
   "choreoAuto": false
 }

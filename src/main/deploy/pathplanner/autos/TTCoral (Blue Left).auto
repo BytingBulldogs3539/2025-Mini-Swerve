@@ -69,11 +69,35 @@
           "data": {
             "pathName": "TTC (Blue Left) pt.6"
           }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 1.0
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "TTC (Blue Left) pt.7"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 1.0
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "TTC (Blue Left) pt.8"
+          }
         }
       ]
     }
   },
   "resetOdom": true,
-  "folder": "TT Autos",
+  "folder": null,
   "choreoAuto": false
 }
