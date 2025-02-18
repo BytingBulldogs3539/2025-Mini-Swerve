@@ -45,7 +45,7 @@
     "rotation": -57.99461679191653
   },
   "reversed": false,
-  "folder": null,
+  "folder": "NCA",
   "idealStartingState": {
     "velocity": 0,
     "rotation": 125.92643684660041

@@ -8,7 +8,7 @@
       },
       "prevControl": null,
       "nextControl": {
-        "x": 5.7036022727272755,
+        "x": 5.703602272727276,
         "y": 6.3486875
       },
       "isLocked": false,
@@ -45,7 +45,7 @@
     "rotation": -124.15969454566942
   },
   "reversed": false,
-  "folder": "Chris Ivan PATHS",
+  "folder": "NCA",
   "idealStartingState": {
     "velocity": 0,
     "rotation": 128.2813667693222

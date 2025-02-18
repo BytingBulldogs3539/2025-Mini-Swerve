@@ -21,7 +21,7 @@
       },
       "prevControl": {
         "x": 5.8632954545454545,
-        "y": 1.7115909090909085
+        "y": 1.7115909090909083
       },
       "nextControl": null,
       "isLocked": false,
@@ -45,7 +45,7 @@
     "rotation": -90.0
   },
   "reversed": false,
-  "folder": "Chris Ivan PATHS",
+  "folder": "Mid to Algae",
   "idealStartingState": {
     "velocity": 0,
     "rotation": 121.60750224624891

@@ -9,7 +9,7 @@
       "prevControl": null,
       "nextControl": {
         "x": 3.5699488636363625,
-        "y": 1.910528409090909
+        "y": 1.9105284090909092
       },
       "isLocked": false,
       "linkedName": null
@@ -45,7 +45,7 @@
     "rotation": 53.67317404787975
   },
   "reversed": false,
-  "folder": "Chris Ivan PATHS",
+  "folder": "S to R",
   "idealStartingState": {
     "velocity": 0,
     "rotation": -133.01614494320333

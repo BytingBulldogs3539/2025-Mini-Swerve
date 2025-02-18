@@ -2,9 +2,21 @@
   "robotWidth": 0.9,
   "robotLength": 0.9,
   "holonomicMode": true,
-  "pathFolders": [],
+  "pathFolders": [
+    "CANN",
+    "Coral & Stack",
+    "Mid to Algae",
+    "NCA",
+    "Misc.",
+    "S to R",
+    "TT STACK",
+    "TTC",
+    "Test Paths"
+  ],
   "autoFolders": [
-    "New Folder"
+    "CORAL",
+    "TT Coral",
+    "Test Autos"
   ],
   "defaultMaxVel": 3.0,
   "defaultMaxAccel": 3.0,

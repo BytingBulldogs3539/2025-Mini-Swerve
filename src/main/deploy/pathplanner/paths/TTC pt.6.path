@@ -21,7 +21,7 @@
       },
       "prevControl": {
         "x": 0.07699999999999996,
-        "y": 1.123
+        "y": 1.1230000000000002
       },
       "nextControl": null,
       "isLocked": false,
@@ -45,7 +45,7 @@
     "rotation": -128.5006537203455
   },
   "reversed": false,
-  "folder": "TT Autos",
+  "folder": "TTC",
   "idealStartingState": {
     "velocity": 0,
     "rotation": 59.93778822063876
