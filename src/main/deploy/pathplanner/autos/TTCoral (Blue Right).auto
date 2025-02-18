@@ -7,7 +7,7 @@
         {
           "type": "path",
           "data": {
-            "pathName": "CANN (pt.1)"
+            "pathName": "TTC pt.1"
           }
         },
         {
@@ -19,7 +19,7 @@
         {
           "type": "path",
           "data": {
-            "pathName": "CANN Pt.2"
+            "pathName": "TTC pt.2"
           }
         },
         {
@@ -31,7 +31,7 @@
         {
           "type": "path",
           "data": {
-            "pathName": "CANN Part 3."
+            "pathName": "TTC pt.3"
           }
         },
         {
@@ -43,7 +43,7 @@
         {
           "type": "path",
           "data": {
-            "pathName": "CANN Part4"
+            "pathName": "TTC pt.4"
           }
         },
         {
@@ -55,7 +55,7 @@
         {
           "type": "path",
           "data": {
-            "pathName": "CANN Part5."
+            "pathName": "TTC pt.5"
           }
         },
         {
@@ -67,13 +67,37 @@
         {
           "type": "path",
           "data": {
-            "pathName": "CANN PART 6"
+            "pathName": "TTC pt.6"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 1.0
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "TTC pt.7"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 1.0
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "TTC pt.8"
           }
         }
       ]
     }
   },
-  "resetOdom": true,
-  "folder": "Chris Ivan Autons",
+  "resetOdom": false,
+  "folder": "TT Autos",
   "choreoAuto": false
 }

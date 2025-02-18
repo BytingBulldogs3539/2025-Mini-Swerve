@@ -7,7 +7,7 @@
         {
           "type": "path",
           "data": {
-            "pathName": "TTC pt.1"
+            "pathName": "TTC (Blue Left) pt.1"
           }
         },
         {
@@ -19,7 +19,7 @@
         {
           "type": "path",
           "data": {
-            "pathName": "TTC pt.2"
+            "pathName": "TTC (Blue Left) pt.2"
           }
         },
         {
@@ -31,7 +31,7 @@
         {
           "type": "path",
           "data": {
-            "pathName": "TTC pt.3"
+            "pathName": "TTC (Blue Left) pt.3"
           }
         },
         {
@@ -43,7 +43,7 @@
         {
           "type": "path",
           "data": {
-            "pathName": "TTC pt.4"
+            "pathName": "TTC (Blue Left) pt.4"
           }
         },
         {
@@ -55,7 +55,7 @@
         {
           "type": "path",
           "data": {
-            "pathName": "TTC pt.5"
+            "pathName": "TTC (Blue Left) pt.5"
           }
         },
         {
@@ -67,37 +67,13 @@
         {
           "type": "path",
           "data": {
-            "pathName": "TTC pt.6"
-          }
-        },
-        {
-          "type": "wait",
-          "data": {
-            "waitTime": 1.0
-          }
-        },
-        {
-          "type": "path",
-          "data": {
-            "pathName": "TTC pt.7"
-          }
-        },
-        {
-          "type": "wait",
-          "data": {
-            "waitTime": 1.0
-          }
-        },
-        {
-          "type": "path",
-          "data": {
-            "pathName": "TTC pt.8"
+            "pathName": "TTC (Blue Left) pt.6"
           }
         }
       ]
     }
   },
-  "resetOdom": false,
-  "folder": null,
+  "resetOdom": true,
+  "folder": "TT Autos",
   "choreoAuto": false
 }
