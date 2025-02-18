@@ -62,6 +62,6 @@
     }
   },
   "resetOdom": true,
-  "folder": "TT Autos",
+  "folder": null,
   "choreoAuto": false
 }
